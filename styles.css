@@ -1,0 +1,27 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Comic+Neue&display=swap');
+
+:root {
+    --cor-primaria: #201658;
+    --cor-secundaria: #1D24CA;
+    --cor-terciaria: #b7edff;
+    --cor-terciariac: #ddf7ff;
+    --cor-quarta: #fff5e1;
+    --cor-quintar: #00b7ff;
+
+    --fonte-principal: "Anta", sans-serif;
+    --fonte-secundaria: "Comic Neue", cursive;
+}
+
+body {
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
+    font-size: 16px;
+    font-weight: 400;
+}
